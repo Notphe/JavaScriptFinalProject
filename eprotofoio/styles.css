@@ -1,0 +1,41 @@
+
+.container{
+    margin: auto;
+    color: white;
+    width: 600px;
+}   
+
+.content{
+    color: black;
+    border: 3px solid;
+    background-color:rgb(25, 121, 25);
+    border-collapse: collapse;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 107, 47);
+}
+img{ 
+    margin-left: 30px;
+    margin-right: auto;
+    border: solid 3px rgb(5, 55, 5);
+    width: 75%;
+}
+td,th{
+    width: 25%;
+    border: solid 1px;
+}
+#mc{
+    display: flex;
+}
+a,a:visited{
+    color: rgb(201, 201, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
